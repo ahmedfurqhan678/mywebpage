@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#title {
+  background-color: chocolate;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+#poster {
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 10 px;
+}
+#intro {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  /* font-family: "Times New Roman", Times, serif; */
+}
+#img2 {
+  height: 500px;
+}
+.container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(17, 17, 84, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+}
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#left-para {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 15px;
+}
+.right {
+  width: 50%;
+  text-align: center;
+}
+#bg-img {
+  height: 200px;
+  width: 200px;
+  background-image: url("./images/jurassic.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+}
